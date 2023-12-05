@@ -1,0 +1,24 @@
+{
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "incremental": true,
+    "allowJs": true,
+    "alwaysStrict": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  }
+}

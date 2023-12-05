@@ -1,0 +1,8 @@
+ignore:
+  - src/config/
+extension:
+  - "ts"
+exit: true
+require:
+  - "ts-node/register"
+  - "source-map-support/register"
